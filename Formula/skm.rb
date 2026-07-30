@@ -28,6 +28,10 @@ class Skm < Formula
   end
 
   def install
+    if OS.mac?
+      chmod 0755, "skm"
+      system "/usr/bin/xattr", "-c", "skm"
+    end
     bin.install "skm"
   end
 
