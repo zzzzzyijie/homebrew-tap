@@ -2,28 +2,28 @@
 class Skm < Formula
   desc "Manage and deploy AI Agent Skills"
   homepage "https://github.com/zzzzzyijie/skm"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/zzzzzyijie/skm/releases/download/v#{version}/skm_darwin_amd64.tar.gz"
-      sha256 "e23bc229578d2b2ff3b3649dab4bc5e3e74fa1faab3ee30e17881b49a57966e2"
+      sha256 "98464d168f34f5a86ea5f2d8d5d78e4ec6373a5aac4f7b8e35aaff2f3d47d1bf"
     end
     on_arm do
       url "https://github.com/zzzzzyijie/skm/releases/download/v#{version}/skm_darwin_arm64.tar.gz"
-      sha256 "f084812111065577392f0423a94ab92176ec5e70158060bd88cf2d49fad820a2"
+      sha256 "7a3fd21df3358d44eb485f73b2710150e48a805015f8156087ec3bd52e3b79b7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/zzzzzyijie/skm/releases/download/v#{version}/skm_linux_amd64.tar.gz"
-      sha256 "ca4c586054ccf247c42a62dbc0be3d1648aa34bacc5f544b4af6676351f5df6c"
+      sha256 "85617ceeed903e9525bd582d6dff75a050a8266324eddbc034056f583c00a2f7"
     end
     on_arm do
       url "https://github.com/zzzzzyijie/skm/releases/download/v#{version}/skm_linux_arm64.tar.gz"
-      sha256 "e65d1832a9ce03011178719bb62d46f0787c2669ef551862a1e8de754e990313"
+      sha256 "288e2a6383ef7bd13785844097d7ede68ee5859f584abfe70727a2477961b5df"
     end
   end
 
